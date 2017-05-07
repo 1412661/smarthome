@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	update_mem_usage();
+	update_cpu_load();
+	update_sys_temp();
+	update_auto_cam_status();
+	update_fire_temp();
+	update_DHT11();
+	update_anti_thief();
+	update_MQ2();
+});

@@ -1,0 +1,181 @@
+* {
+	outline: none;	margin: auto;
+}
+body {
+	background-color: #F0F0F0;
+}button{	-moz-border-radius: 4px;	-webkit-border-radius: 4px;	border-radius: 4px;	border: 1px solid #BFBFBF;	padding: 3px 6px;	background-color: #EFEFEF; 	margin: 3px;	text-decoration: none;	color: black;}button:hover {	background-color: #DDDDDD;}button:active {	background-color: #CCCCCC;	position: relative;	top: 2px;}
+.wrapper {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	border: 1px solid #BFBFBF;
+	width: 950px;
+	padding: 15px 15px 0px 15px;
+	margin: auto;
+}
+#banner {
+	margin: 20px auto;
+	text-align: center;
+}
+#left {
+	float: left;
+	margin-left: 20px;
+}
+#right {
+	float: right;
+	margin-right: 20px;
+	width: 200px;
+	margin: 20px 20px 0px 0px;
+}
+.clear {
+	clear: both;
+}
+#footer {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #FFF;
+	border: 1px solid #BFBFBF;
+	color: green;
+	padding: 5px;
+	width: 600px;
+	margin: 50px auto 10px auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer a {
+	color: green !important;
+}
+.footer_time {
+	margin-bottom: 10px; 
+	text-align: center;
+}
+.hr {
+	border-top: 2px solid #BFBFBF;
+	margin: 5px;
+}
+.link {
+	color: black;
+	text-decoration: none;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.link:active {
+	color: red;
+}
+.header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 130%;
+	margin-bottom: 20px;
+}
+.header a {
+	color: black;
+	text-decoration: none;
+}
+.header a:hover {
+	text-decoration: underline;
+}
+.header a:active {
+	color: red;
+}
+/*	Style for table	*/
+.table {
+	border: 1px solid #BFBFBF;
+	border-collapse: collapse;
+}
+.table td, .table thead tr th {
+	border: 1px solid #BFBFBF;
+	padding: 4px;
+	vertical-align: middle;
+}.no_table {	border: 0px solid #FFFFFF;	border-collapse: collapse;}.no_table td, .no_table thead tr th {	border: 0px solid #FFFFFF;	padding: 0px;}
+.direction {	width: 55px;}
+/*	Style for input	*/
+input[type="text"], input[type="password"] {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #bfbfbf;
+	padding: 4px;
+	margin: 5px;
+}input[type="text"]:focus, input[type="password"]:focus {
+	border: 1px solid black;
+}
+.require {
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+.marquee {
+	overflow: hidden;
+	/* For Safari and Chrome  */
+	overflow-x:-webkit-marquee;
+	-webkit-marquee-direction: backwards;
+	-webkit-marquee-style: scroll;
+	-webkit-marquee-speed: fast;
+	-webkit-marquee-increment: small;
+	-webkit-marquee-repetition: infinite;
+
+	/* W3C Standard */
+	overflow-x: marquee-line;
+	marquee-direction: forward;
+	marquee-style: scroll;
+	marquee-speed: fast;
+	marquee-play-count: infinite;
+}
+/*	Style for selection color	*/
+::-moz-selection {
+       background-color: #bfbfbf;
+       color: #000;
+}
+::selection {
+       background-color: #bfbfbf;
+       color: #000;
+}
+.notice {
+	font-style: italic; 
+	text-align: center; 
+	color: red;
+}
+/*	Style for point color	*/
+.high_point {	color: #2e8a00;
+	font-weight: bold;
+}
+.low_point {
+	color: #ff0000;
+	font-weight: bold;
+}
+.medium_point {
+	color: #70b84d;
+	font-weight: bold;
+}
+/*	Style for backgroud color	*/
+.bg_green {
+	background-color: #E9FFE9;
+}
+.bg_red {
+	background-color: #FFF0F0;
+}
+.bg_grey_bold {
+	font-weight: bold;
+	background-color: #C0C0C0;
+}
+.bg_grey {
+	background-color: #D9D9D9;
+}
+.bg_grey_light {
+	background-color: #ECECEC;
+}
+/* Style for child format	*/
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}.justify {	text-align: justify;}

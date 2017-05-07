@@ -1,0 +1,1 @@
+Thư mục lưu trữ các file php cung cấp các hàm (function) hỗ trợ cho việc vận hành website.
